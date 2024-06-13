@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+
+app {
+    display: block;
+    height: 100%;
+}
+
+/*.header-logo {
+    flex-shrink: 0;
+    background-color: currentColor;
+    -webkit-mask: url('../images/CLIENTPRO-1.png');
+    mask: url('../images/CLIENTPRO-1.png');*/
+    /*-webkit-mask-position: center;*/
+    /*mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    width: 180px;
+    height: 24px;
+}*/
+
+.header-logo {
+    flex-shrink: 0;
+    /*background-color: currentColor;*/
+    background-image: url('../images/LogoSlamsCRM.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    width: 200px;
+    height: 40px;
+}
+
+
+
+#blazor-error-ui {
+    background: inherit;
+    bottom: 0;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100001;
+}
+
+.dxbl-group > .dxbl-group-header > .dxbl-text {
+    color:deeppink;
+    font-weight:bold;
+}
+.dxbl-fl .dxbl-fl-item.dxbl-fl-item-horizontal > .dxbl-fl-cpt {
+    font-weight:bold;
+}
+.dxbl-fl .dxbl-fl-group > .dxbl-group {
+    box-shadow: 5px 5px 20px cadetblue;
+    border-radius: 0px 15px;
+}
+
+/*.dxbl-fl .dxbl-fl-gd, .dxbl-fl .dxbl-fl-gt {
+    box-shadow: 5px 5px 20px cadetblue;
+    border-radius: 0px 15px;
+}*/
+
+.dxbl-fl .dxbl-fl-group > .dxbl-group:hover {
+    flex: 3;
+    cursor: pointer;
+}
+.dxbl-grid {
+    box-shadow: 5px 5px 20px cadetblue;
+    transition: 0.5s ease-in-out;
+    flex: 1px;
+}
+.dxbl-grid:hover {
+    flex: 3;
+    cursor: pointer;
+}
+.dxbl-grid .dxbl-grid-table .dxbl-grid-expand-button-cell + td {
+    font-weight: bold;
+    color: blueviolet;
+}
